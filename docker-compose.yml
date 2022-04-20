@@ -1,0 +1,29 @@
+#Fichero
+version: "3"
+
+services: 
+  myweb:
+    container_name: moviapp
+    restart: always
+    build: .
+    ports:
+      - "7000:3000"
+    links: 
+      - mongo
+    volumes:
+      - .:/usr/src/app
+  mongo: 
+    container_name: mydatabasemongomovi
+    image: mongo
+    restart: always
+    ports:
+      - "27088:27017" 
+    logging:
+      driver: none
+    volumes:
+      - ~Desktop/node_mongodb_rest_docker/data:/data/db
+    
+
+
+     
+    
