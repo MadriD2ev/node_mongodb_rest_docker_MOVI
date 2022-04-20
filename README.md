@@ -20,6 +20,10 @@ Construcción de una capa de servicios usando REST, conectando a MongoDB. Adicio
 
 ![Captura de Pantalla 2022-04-20 a la(s) 5 22 58 a  m](https://user-images.githubusercontent.com/68882204/164208984-4c72593e-b5e7-4ba7-943d-202683e08441.png)
 
+- [ ] Si todo sale bien nos deberían salir los siguientes mensajes:
+
+![Captura de Pantalla 2022-04-20 a la(s) 5 46 15 a  m](https://user-images.githubusercontent.com/68882204/164214913-64cb7dc3-d944-434b-9704-473cc652157b.png)
+
 ##### Para la BD
   (mydatabasemongomovi es el nombre del contenedor que tiene a mongo)
 - [ ] USER2:node_mongodb_rest_docker user$ ***docker exec -it mydatabasemongomovi mongo***
