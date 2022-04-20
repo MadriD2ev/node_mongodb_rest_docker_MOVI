@@ -24,6 +24,8 @@ Construcción de una capa de servicios usando REST, conectando a MongoDB. Adicio
 
 ![Captura de Pantalla 2022-04-20 a la(s) 5 46 15 a  m](https://user-images.githubusercontent.com/68882204/164214913-64cb7dc3-d944-434b-9704-473cc652157b.png)
 
+- [ ] Sí se desea detener los servicios se puede utilizar la instrucción ***docker-compose stop*** en nuestra terminal.
+
 ##### Para la BD
   (mydatabasemongomovi es el nombre del contenedor que tiene a mongo)
 - [ ] USER2:node_mongodb_rest_docker user$ ***docker exec -it mydatabasemongomovi mongo***
