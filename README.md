@@ -51,4 +51,4 @@ Se utilizan cuatro métodos básicos en Postman
 ##### Notas finales:
 Estoy segura que se le pueden hacer mejoras como: 
   - En la parte donde se crea la BD se puede evitar inicializando en la BD que necesitamos y mediante  de configuración en docker-compose.yml insertar registros sí se desea.
-  - Todavía se le podrían agregar más cosas middleware, más modelos, logueo de usuarios, seguridad en las rutas, encriptar passwords, otras validaciones, , llevarlo a front con ReactJS por ejemplo.
+  - Todavía se le podrían agregar más cosas middleware, más modelos, logueo de usuarios, seguridad en las rutas, encriptar passwords, otras validaciones, llevarlo a front con ReactJS por ejemplo.
